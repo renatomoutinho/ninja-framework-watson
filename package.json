@@ -1,0 +1,31 @@
+{
+	"name": "watsontutorialfb",
+	"description": "Framework para demos/POCs utilizando o Watson + Facebook Messenger",
+	"version": "0.3.2",
+	"private": true,
+	"author": {
+		"name": "Renato Leal",
+		"email": "rleal@br.ibm.com"
+	},
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"asyncawait": "1.0.6",
+		"express": "4.14.x",
+		"cfenv": "1.0.x",
+		"body-parser": "^1.15.0",
+		"request": "2.72.0",
+		"watson-developer-cloud": "^2.8.1",
+		"node-boleto": "2.0.1",
+		"bluebird": "^3.4.6",
+		"ibm_db": "~1.0.0",
+		"tmp": "^0.0.29",
+	    "fluent-ffmpeg": "2.1.0",
+		"node-telegram-bot-api": "0.24.0"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}
